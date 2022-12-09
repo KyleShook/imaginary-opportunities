@@ -1,3 +1,5 @@
+/* Keep the styling intentionally minimal. If you find a problem with the styling, please open an issue on GitHub. */
+
 html,
 body {
 	padding: 16px;
@@ -8,7 +10,7 @@ body {
 a {
 	color: blue;
 	text-decoration: underline;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 600;
 	text-underline-offset: 3px;
 	display: block;
@@ -42,11 +44,25 @@ li {
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 50px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 12px;
 }
 
 h2 {
-	font-size: 25px;
+	font-size: 22px;
+	text-align: center;
+	font-weight: 100;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.header {
+	margin-bottom: 100px;
 }
 
 .listing {

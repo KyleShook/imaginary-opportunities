@@ -1,4 +1,4 @@
-# One job board to rule them all
+# Imaginary Opportunities
 
 Welcome to Imaginary Opportunities, the job board where you can find exciting and unique job openings with your favorite fictional characters. From mythical creatures and enchanted forests to futuristic cities and distant galaxies, our listings offer a wide range of opportunities for those looking to pursue their dream careers in the world of imagination.
 

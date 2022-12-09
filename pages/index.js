@@ -1,5 +1,4 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -41,11 +40,12 @@ export default function Home() {
 				<title>Your dream job awaits</title>
 			</Head>
 
-			<main className={styles.main}>
-				<h1 className={styles.title}>
-					The job board of your dreams (or nightmares).
-				</h1>
-				<h2>Currently hiring frontend developers:</h2>
+			<main>
+				<section className="header">
+					<h1>✨Imaginary Opportunities✨</h1>
+					<h2>The job board of your dreams (or nightmares).</h2>
+				</section>
+				<h3>Currently hiring frontend developers:</h3>
 				<section className="job-list">
 					<Link href="/listings/frontend/lord-sauron">Lord Sauron</Link>
 					<Link href="/listings/frontend/dunder-mifflin">Dunder Mifflin</Link>
@@ -99,7 +99,6 @@ export default function Home() {
 					</Link>
 					<Link href="/listings/frontend/stargate">Stargate SG-1</Link>
 					<Link href="/listings/frontend/optimus">Optimus Prime</Link>
-					<Link href="/listings/frontend/moon">Moon</Link>
 					<Link href="/listings/frontend/power-rangers">Power Rangers</Link>
 					<Link href="/listings/frontend/witcher">Witcher</Link>
 					<Link href="/listings/frontend/frankenstein">Frankenstein</Link>
@@ -158,6 +157,7 @@ export default function Home() {
 					<Link href="/listings/frontend/twilight-zone">Twilight Zone</Link>
 					<Link href="/listings/frontend/winnie">Winnie the Pooh</Link>
 					<Link href="/listings/frontend/dexters-lab">Dexter's Laboratory</Link>
+					<Link href="/listings/frontend/krypton">Krypton</Link>
 				</section>
 
 				{jobCount && (
@@ -167,7 +167,7 @@ export default function Home() {
 					</>
 				)}
 				<a
-					href="https://www.github.com/contribute"
+					href="https://github.com/KyleShook/imaginary-opportunities"
 					target="_blank"
 					rel="noreferrer"
 					className="contribute"
