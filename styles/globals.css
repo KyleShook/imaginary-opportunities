@@ -1,26 +1,90 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	padding: 16px;
+	margin: 0;
+	font-family: monospace;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: blue;
+	text-decoration: underline;
+	font-size: 20px;
+	font-weight: 600;
+	text-underline-offset: 3px;
+	display: block;
+	margin-bottom: 10px;
+	width: fit-content;
+}
+
+a:hover,
+a:visited:hover {
+	color: black;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:focus-visible {
+	outline-offset: 5px;
+	border-radius: 0px;
+	outline: 2px solid black;
+	color: black;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
+}
+p,
+ul,
+li {
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+.listing {
+	max-width: 800px;
+	width: 100%;
+}
+
+.job-list {
+	/* Will auto expand and contract the columns to fit screen size */
+	-webkit-columns: 325px;
+	-moz-columns: 325px;
+	columns: 325px;
+	-webkit-column-gap: 1em;
+	-moz-column-gap: 1em;
+	column-gap: 1em;
+	-webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+	page-break-inside: avoid; /* Firefox */
+	break-inside: avoid; /* IE 10+ */
+	margin-bottom: 50px;
+}
+
+.contribute {
+	color: black;
+	border: 2px dashed;
+	padding: 12px;
+}
+
+.contribute:hover {
+	color: blue;
+	border: 2px dashed blue;
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+	html {
+		color-scheme: dark;
+	}
+	body {
+		color: white;
+		background: black;
+	}
 }

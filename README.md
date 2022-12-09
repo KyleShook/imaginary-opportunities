@@ -1,34 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# One job board to rule them all
 
-## Getting Started
+Welcome to Imaginary Opportunities, the job board where you can find exciting and unique job openings with your favorite fictional characters. From mythical creatures and enchanted forests to futuristic cities and distant galaxies, our listings offer a wide range of opportunities for those looking to pursue their dream careers in the world of imagination.
 
-First, run the development server:
+Whether you're a skilled wizard seeking a position in a magical kingdom, a fearless adventurer looking for your next great quest, or a creative problem-solver seeking to make a difference in the world of make-believe, Imaginary Opportunities has something for you. Explore our listings today and take the first step towards your dream job in a fantastical world of wonder and adventure.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+We also have opportunities for those who prefer to tread the path of darkness, with listings for villainous roles and wicked schemes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contribution Guidelines:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Coming soon!
