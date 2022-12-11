@@ -16,7 +16,7 @@ We also have opportunities for those who prefer to tread the path of darkness, w
 
 ### How the job listings were created:
 
-This project utilized OpenAI and ChatGPT to generate the content for each job listing separately. We hope you will try this method also, it's very easy! (We'll give you a quick walkthrough too) However, if absolutely feel led to write the job post yourself, feel free.
+This project utilized OpenAI and ChatGPT to generate the content for each job listing separately. We hope you will try this method also, it's very easy! (We'll give you a quick walkthrough below) However, if absolutely feel led to write the job post yourself, feel free.
 
 **Steps to create a new job listing:**
 
@@ -24,18 +24,14 @@ This project utilized OpenAI and ChatGPT to generate the content for each job li
 2. Create an account
 3. If you're not forwarded to ChatGPT, revisit [ChatGPT](https://chat.openai.com/chat)
 4. In the input field, ask it to write an "entry-level frontend developer job listing where you'll be working for [Your job goes here]" (Tip: Add "Make it funny" for a more humorous tone)
-5. Copy a response that you light and paste it into [HTML Cleaner](https://html-cleaner.com/)
+5. Copy a response that you like, visit [HTML Cleaner](https://html-cleaner.com/) and paste it on the left. Your text-to-code will appear on the right side of the page.
 6. Now you have your job listing code and are ready to begin contributing to the project.
 
 **Steps to contribute your new job listing:**
 
-1. Fork the project from `https://github.com/KyleShook/imaginary-opportunities`
-
-```
-git clone https://github.com/KyleShook/imaginary-opportunities.git
-```
-
-2.
+1. Fork this project using the `Fork` button at the top of this page.
+2. `git clone personalUrl.git` locally and `npm install` the necessary packages.
+   - You can find your personal url on your forked repository page by clicking the green "Code" button.
 3. Create a new page file in the frontend folder: `pages\listings\frontend\new-file.js`
    - The name of the file will also be part of the url path for the job listing.
    - There is an example page file in: `pages\listings\frontend\example\example.js`
@@ -67,3 +63,8 @@ export default Listing;
 ```
 
 6. Check that your new job listing appears on the homepage and the link works correctly.
+7. Stage your changes `git add .`
+8. Commit your changes `git commit -m "Merlin job listing"`
+9. Push your changes `git push origin`
+10. Create a pull request from your GitHub repository url. Desribe your changes.
+11. Wait for your pull request to be approved and merged into the main project.
