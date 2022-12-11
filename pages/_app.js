@@ -12,10 +12,13 @@ function MyApp({ Component, pageProps }) {
 					content="https://imaginary-opportunities.vercel.app/"
 				/>
 				<meta property="og:type" content="website" />
-				<meta property="og:title" content="Your dream job awaits." />
+				<meta
+					property="og:title"
+					content="Welcome to Imaginary Opportunities"
+				/>
 				<meta
 					property="og:description"
-					content="Welcome to Imaginary Opportunities, the job board where you can find exciting and unique job openings with your favorite fictional characters."
+					content="Find exciting and unique job openings with your favorite fictional characters."
 				/>
 				<meta property="og:image" content="/images/meta-image.png" />
 
@@ -28,10 +31,13 @@ function MyApp({ Component, pageProps }) {
 					property="twitter:url"
 					content="https://imaginary-opportunities.vercel.app/"
 				/>
-				<meta name="twitter:title" content="Your dream job awaits." />
+				<meta
+					name="twitter:title"
+					content="Welcome to Imaginary Opportunities"
+				/>
 				<meta
 					name="twitter:description"
-					content="Welcome to Imaginary Opportunities, the job board where you can find exciting and unique job openings with your favorite fictional characters."
+					content="Find exciting and unique job openings with your favorite fictional characters."
 				/>
 				<meta name="twitter:image" content="/images/meta-image.png"></meta>
 			</Head>
