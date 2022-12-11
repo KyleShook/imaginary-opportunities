@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
 					property="og:description"
 					content="Welcome to Imaginary Opportunities, the job board where you can find exciting and unique job openings with your favorite fictional characters."
 				/>
-				<meta property="og:image" content="../public/images/meta-image.png" />
+				<meta property="og:image" content="/images/meta-image.png" />
 
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta
@@ -33,10 +33,7 @@ function MyApp({ Component, pageProps }) {
 					name="twitter:description"
 					content="Welcome to Imaginary Opportunities, the job board where you can find exciting and unique job openings with your favorite fictional characters."
 				/>
-				<meta
-					name="twitter:image"
-					content="../public/images/meta-image.png"
-				></meta>
+				<meta name="twitter:image" content="/images/meta-image.png"></meta>
 			</Head>
 			<Component {...pageProps} />
 		</>
