@@ -42,8 +42,24 @@ export default function Home() {
 
 			<main>
 				<section className="header">
-					<h1>✨Imaginary Opportunities✨</h1>
+					<h1>Imaginary Opportunities</h1>
 					<h2>The job board of your dreams (or nightmares).</h2>
+					<span className="emoji">✨</span>
+					<p className="hero-copy">
+						Welcome to Imaginary Opportunities, the job board where you can find
+						exciting and unique job openings with your favorite fictional
+						characters.
+					</p>
+					<p className="hero-copy">
+						From mythical creatures and enchanted forests to futuristic cities
+						and distant galaxies, our listings offer a wide range of
+						opportunities for those looking to pursue their dream careers in the
+						world of imagination.
+					</p>
+					<p className="hero-copy">
+						We also have opportunities for those who prefer to tread the path of
+						darkness, with listings for villainous roles and wicked schemes.
+					</p>
 				</section>
 				<h3>Currently hiring frontend developers:</h3>
 				<section className="job-list">
