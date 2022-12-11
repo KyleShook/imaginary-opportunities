@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
 				/>
 				<meta
 					property="og:image"
-					content="https://imaginary-opportunities.vercel.app/images/metaImage.png"
+					content="imaginary-opportunities.vercel.app/images/metaImage.png"
 				/>
 
 				<meta name="twitter:card" content="summary_large_image" />
@@ -44,7 +44,7 @@ function MyApp({ Component, pageProps }) {
 				/>
 				<meta
 					name="twitter:image"
-					content="https://imaginary-opportunities.vercel.app/images/metaImage.png"
+					content="imaginary-opportunities.vercel.app/images/metaImage.png"
 				></meta>
 			</Head>
 			<Component {...pageProps} />
