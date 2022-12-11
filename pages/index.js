@@ -199,14 +199,14 @@ export default function Home() {
 					>
 						Kyle Shook
 					</a>{" "}
-					while experimenting with ChatGPT.{" "}
+					while experimenting with ChatGPT. It is{" "}
 					<a
 						className="footer-link"
 						href="https://github.com/KyleShook/imaginary-opportunities"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						Open sourced
+						open sourced
 					</a>{" "}
 					and a great project for developers of all skill levels to contribute
 					to.
