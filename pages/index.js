@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -35,11 +34,7 @@ export default function Home() {
 	}, []);
 
 	return (
-		<div>
-			<Head>
-				<title>Your dream job awaits</title>
-			</Head>
-
+		<>
 			<main>
 				<section className="header">
 					<h1>Imaginary Opportunities</h1>
@@ -60,6 +55,23 @@ export default function Home() {
 						We also have opportunities for those who prefer to tread the path of
 						darkness, with listings for villainous roles and wicked schemes.
 					</p>
+					<hr />
+					{jobCount && (
+						<div className="contribution-container">
+							<p>
+								{jobCount} jobs and counting! Want to make it {jobCount + 1}?
+							</p>
+
+							<a
+								href="https://github.com/KyleShook/imaginary-opportunities"
+								target="_blank"
+								rel="noreferrer"
+								className="contribute"
+							>
+								Contribute to project
+							</a>
+						</div>
+					)}
 				</section>
 				<h3>Currently hiring frontend developers:</h3>
 				<section className="job-list">
@@ -175,22 +187,31 @@ export default function Home() {
 					<Link href="/listings/frontend/dexters-lab">Dexter's Laboratory</Link>
 					<Link href="/listings/frontend/krypton">Krypton</Link>
 				</section>
-
-				{jobCount && (
-					<>
-						<p>{jobCount} jobs and counting!</p>
-						<p>Want to make it {jobCount + 1}?</p>
-					</>
-				)}
-				<a
-					href="https://github.com/KyleShook/imaginary-opportunities"
-					target="_blank"
-					rel="noreferrer"
-					className="contribute"
-				>
-					Contribute to project
-				</a>
 			</main>
-		</div>
+			<footer>
+				<p>
+					Imaginary Opportunies was built by{" "}
+					<a
+						className="footer-link"
+						href="https://www.kyleshook.com/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Kyle Shook
+					</a>{" "}
+					while experimenting with ChatGPT.{" "}
+					<a
+						className="footer-link"
+						href="https://github.com/KyleShook/imaginary-opportunities"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Open sourced
+					</a>{" "}
+					and a great project for developers of all skill levels to contribute
+					to.
+				</p>
+			</footer>
+		</>
 	);
 }
