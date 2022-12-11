@@ -54,6 +54,7 @@ h2 {
 	font-size: 22px;
 	text-align: center;
 	font-weight: 100;
+	margin-bottom: 0;
 }
 
 h3 {
@@ -93,4 +94,17 @@ h3 {
 .contribute:hover {
 	color: blue;
 	border: 2px dashed blue;
+}
+
+.hero-copy {
+	max-width: 900px;
+	width: 100%;
+	margin: 16px auto;
+	line-height: 1.5;
+}
+
+.emoji {
+	font-size: 50px;
+	text-align: center;
+	display: block;
 }
