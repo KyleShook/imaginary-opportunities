@@ -20,7 +20,10 @@ function MyApp({ Component, pageProps }) {
 					property="og:description"
 					content="Find exciting and unique job openings with your favorite fictional characters."
 				/>
-				<meta property="og:image" content="/images/metaImage.png" />
+				<meta
+					property="og:image"
+					content="imaginary-opportunities.vercel.app/images/metaImage.png"
+				/>
 
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta
@@ -39,7 +42,10 @@ function MyApp({ Component, pageProps }) {
 					name="twitter:description"
 					content="Find exciting and unique job openings with your favorite fictional characters."
 				/>
-				<meta name="twitter:image" content="/images/metaImage.png"></meta>
+				<meta
+					name="twitter:image"
+					content="imaginary-opportunities.vercel.app/images/metaImage.png"
+				></meta>
 			</Head>
 			<Component {...pageProps} />
 		</>
