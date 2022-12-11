@@ -158,6 +158,7 @@ export default function Home() {
 					<Link href="/listings/frontend/winnie">Winnie the Pooh</Link>
 					<Link href="/listings/frontend/dexters-lab">Dexter's Laboratory</Link>
 					<Link href="/listings/frontend/krypton">Krypton</Link>
+					<Link href="/listings/frontend/elite-four">Elite Four</Link>
 				</section>
 
 				{jobCount && (
