@@ -5,7 +5,7 @@ const Listing = () => {
     <section className="listing">
       <Link href="/">Return Home</Link>
       <p>
-        <strong>Frontend Developer (Entry-Level)</strong>
+        <strong>Junior Frontend Developer</strong>
       </p>
       <p>
         Are you ready to join the Elite Four and take on the toughest coding
