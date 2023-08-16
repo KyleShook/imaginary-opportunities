@@ -94,6 +94,9 @@ export default function Home() {
 					<Link href="/listings/frontend/harry-houdini">
 						Harry Houdini Inc.
 					</Link>
+
+					<Link href="/listings/frontend/Peter-Griffin">Peter Griffin</Link>
+
 					<Link href="/listings/frontend/captain-hook">Captain Hook</Link>
 					<Link href="/listings/frontend/lord-voldemort">Lord Voldemort</Link>
 					<Link href="/listings/frontend/thrall">Thrall</Link>
